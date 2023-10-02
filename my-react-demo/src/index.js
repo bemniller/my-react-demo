@@ -18,15 +18,17 @@ const myFirstElement = <h1>Hello React!</h1>
 
 const myelement = (
   <table>
-    <tr>
-      <th>Name</th>
-    </tr>
-    <tr>
-      <td>John</td>
-    </tr>
-    <tr>
-      <td>Elsa</td>
-    </tr>
+    <tbody>
+      <tr>
+        <th>Name</th>
+      </tr>
+      <tr>
+        <td>John</td>
+      </tr>
+      <tr>
+        <td>Elsa</td>
+      </tr>
+    </tbody>
   </table>
 );
 
