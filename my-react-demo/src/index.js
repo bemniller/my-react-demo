@@ -1,5 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+var age = 100;
+
+const showAge = <h2>{age}</h2>;
+
+const fragment = (
+  <>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </>
+)
 
 const myFirstElement = <h1>Hello React!</h1>
 
@@ -19,6 +32,8 @@ const myelement = (
 
 const combinedElement = (
   <div>
+    {fragment}
+    {showAge}
     {myFirstElement}
     {myelement}
   </div>
