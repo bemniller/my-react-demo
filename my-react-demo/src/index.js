@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Car from "./car.js";
 var age = 100;
 
 const showAge = <h2>{age}</h2>;
@@ -34,6 +35,7 @@ const myelement = (
 
 const combinedElement = (
   <div>
+    {Car}
     {fragment}
     {showAge}
     {myFirstElement}
