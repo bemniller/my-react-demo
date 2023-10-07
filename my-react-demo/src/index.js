@@ -35,7 +35,7 @@ const myelement = (
 
 const combinedElement = (
   <div>
-    {Car}
+    {<Car/>}
     {fragment}
     {showAge}
     {myFirstElement}
