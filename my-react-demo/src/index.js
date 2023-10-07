@@ -33,15 +33,23 @@ const myelement = (
   </table>
 );
 
+const carDetails = (
+  <>
+    <Car brand="Mitsubishi" color="green" mileage="200,000"/>
+  </>
+  
+)
+
 const combinedElement = (
   <div>
-    {<Car/>}
+    {carDetails}
     {fragment}
     {showAge}
     {myFirstElement}
     {myelement}
   </div>
 );
+
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
